@@ -1,2 +1,3 @@
 #!/bin/bash
-/usr/bin/dotnet neo-cli.dll --rpc --log
+cd node/neo-cli
+dotnet neo-cli.dll --rpc --log

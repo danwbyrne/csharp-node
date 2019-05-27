@@ -1,4 +1,3 @@
 #!/bin/bash
-echo "launching"
-screen -L -dmS nodeRPC /opt/start.sh
+screen -dmS node expect /opt/start.sh /opt/node/neo-cli/
 sleep infinity
